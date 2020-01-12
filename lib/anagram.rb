@@ -15,7 +15,6 @@ class Anagram
     # returns an empty array if no matches exist
     array.select do |word|
       word.split("").sort == @word.split("").sort
-      binding.pry
     end
   end
   
